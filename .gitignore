@@ -8,5 +8,5 @@
 # Except for these:
 !.gitattributes
 !.gitignore
-!README*
+!*.md
 !License
