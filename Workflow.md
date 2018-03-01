@@ -10,5 +10,7 @@
 1. Add 2D box colliders on all of the walls of the maze.
    * Add
    * Resize (edit)
-   * Repeat
+   * Repeat   
 1. Add and animate the player sprite
+   * Add
+   * Slice
