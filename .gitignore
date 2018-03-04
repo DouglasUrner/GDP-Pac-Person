@@ -2,11 +2,5 @@
 #
 # For Unity & Rider
 #
-# Ignore Everything
-/*
-
-# Except for these:
-!.gitattributes
-!.gitignore
-!*.md
-!License
+.DS_Store
+.idea
