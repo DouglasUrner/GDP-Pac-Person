@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4113765820105814}
   - component: {fileID: 212445239105031142}
   - component: {fileID: 58620187021373400}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PacDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
