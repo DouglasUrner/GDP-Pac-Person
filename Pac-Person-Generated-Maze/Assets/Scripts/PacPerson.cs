@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PacPerson : MonoBehaviour {
-	public float speed = 0.5f;
+	public float speed = 0.3f;
 
 	private Vector2 dest = Vector2.zero;
 
@@ -33,6 +33,14 @@ public class PacPerson : MonoBehaviour {
 		}
 	}
 
+	void OnTriggerEnter2D(Collider2D c) {
+		//print("trigger: " + c.name);
+		if (c.CompareTag("PacDot")) {
+			// TODO: track score events.
+			Destroy(c.gameObject);
+		}
+	}
+
 	/**
 	 * bool canMove(dir) - check if we can move in the direction indicated by dir.
 	 *
@@ -45,7 +53,7 @@ public class PacPerson : MonoBehaviour {
 		Vector2 pos = transform.position;
 		RaycastHit2D hit = Physics2D.Linecast(pos + dir, pos);
 		bool canMove = (hit.collider == myCollider);
-		print("hit collider: " + hit.collider + " myCollider: " + myCollider + " canMove: " + canMove);
+		//print("hit collider: " + hit.collider + " myCollider: " + myCollider + " canMove: " + canMove);
 		return canMove;
 	}
 }
