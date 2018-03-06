@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PacPersonMove : MonoBehaviour {
 	public float speed = 0.4f;
+	public int PacDotsEaten = 0;
 	
 	Vector2 dest = Vector2.zero;
 
@@ -38,6 +39,13 @@ public class PacPersonMove : MonoBehaviour {
 		Vector2 dir = dest - (Vector2) transform.position;
 		GetComponent<Animator>().SetFloat("DirX", dir.x);
 		GetComponent<Animator>().SetFloat("DirY", dir.y);
+	}
+
+	private void OnTriggerEnter2D(Collider2D other) {
+		if (other.CompareTag("PacDot")) {
+			Destroy(other.gameObject);
+			PacDotsEaten++;
+		}
 	}
 
 	private bool validMove(Vector2 dir) {
