@@ -14,3 +14,14 @@ in Pac-Man. Code, in Python, is on
 [GitHub](https://github.com/shaunlebron/pacman-mazegen).
 
 * [Seeing Roadway Patterns in Pac-Man](https://www.lugnet.com/admin/plan/map/pacman.html)
+
+* [Pac-Man Emulator](http://simonowen.com/sam/articles/pacemu)
+
+Implementations:
+
+* [Pac-Man](https://github.com/masonicGIT/pacman) - A historical tribute and accurate remake of the
+original Pac-Man arcade game in Javascript.
+
+Sets of sprites:
+
+* [](https://github.com/rm-hull/big-bang/tree/master/examples/pacman)
