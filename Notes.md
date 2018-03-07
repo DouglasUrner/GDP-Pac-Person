@@ -24,6 +24,7 @@ original Pac-Man arcade game in Javascript.
 
 * [Pac-Man for iOS](https://github.com/kean/Pacman) - Written in Objective C.
 
+* [ClojureScript Pac Man](https://github.com/rm-hull/big-bang/tree/master/examples/pacman)
+
 Sets of sprites:
 
-* [Pac-Man Sprites](https://github.com/rm-hull/big-bang/tree/master/examples/pacman)
