@@ -22,6 +22,8 @@ Implementations:
 * [Pac-Man](https://github.com/masonicGIT/pacman) - A historical tribute and accurate remake of the
 original Pac-Man arcade game in Javascript.
 
+* [Pac-Man for iOS](https://github.com/kean/Pacman) - Written in Objective C.
+
 Sets of sprites:
 
-* [](https://github.com/rm-hull/big-bang/tree/master/examples/pacman)
+* [Pac-Man Sprites](https://github.com/rm-hull/big-bang/tree/master/examples/pacman)
