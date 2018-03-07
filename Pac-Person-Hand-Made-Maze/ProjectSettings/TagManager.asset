@@ -45,6 +45,6 @@ TagManager:
   - name: Maze
     uniqueID: 728645463
     locked: 0
-  - name: Player
+  - name: Character
     uniqueID: 751696033
     locked: 0
