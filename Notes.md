@@ -7,7 +7,10 @@ Algorithm to generate a random maze with no code examples.
 Seems relatively easy to implement. This one defines "Pac-Man"
 style to mean "no dead ends" and "no rooms."
 Does not seem to include provision for a "ghost house."
+
 * [Pac-Man Maze Generation](https://shaunlebron.github.io/pacman-mazegen/) -
 Another random generator, this one is more "true" to the mazes
 in Pac-Man. Code, in Python, is on
 [GitHub](https://github.com/shaunlebron/pacman-mazegen).
+
+* [Seeing Roadway Patterns in Pac-Man](https://www.lugnet.com/admin/plan/map/pacman.html)
