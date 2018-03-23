@@ -45,7 +45,6 @@ public class PacPersonMove : MonoBehaviour {
 		if (other.CompareTag("PacDot")) {
 			Destroy(other.gameObject);
 			PacDotsEaten++;
-			UpdateScore.points = PacDotsEaten;
 		}
 	}
 
