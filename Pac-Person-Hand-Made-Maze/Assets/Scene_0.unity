@@ -4037,7 +4037,7 @@ GameObject:
   - component: {fileID: 99846408}
   - component: {fileID: 99846407}
   m_Layer: 0
-  m_Name: Inky_0
+  m_Name: Inky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45353,7 +45353,7 @@ GameObject:
   - component: {fileID: 1134200356}
   - component: {fileID: 1134200355}
   m_Layer: 0
-  m_Name: Blinky_0
+  m_Name: Blinky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60281,7 +60281,7 @@ GameObject:
   - component: {fileID: 1521376062}
   - component: {fileID: 1521376061}
   m_Layer: 0
-  m_Name: Pinky_0
+  m_Name: Pinky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75609,7 +75609,7 @@ GameObject:
   - component: {fileID: 1913535995}
   - component: {fileID: 1913535994}
   m_Layer: 0
-  m_Name: Pokey_0
+  m_Name: Pokey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
