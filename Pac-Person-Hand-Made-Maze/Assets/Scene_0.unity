@@ -56063,6 +56063,32 @@ Prefab:
       propertyPath: m_Name
       value: Inky
       objectReference: {fileID: 0}
+    - target: {fileID: 212391054795809408, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: 407424f4210404c57b18b187f5991f67,
+        type: 3}
+    - target: {fileID: 212391054795809408, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212391054795809408, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212391054795809408, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95377561160810794, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f59c1d9f6914693b66ef9dea1428aa, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f, type: 2}
   m_IsPrefabParent: 0
@@ -65061,14 +65087,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 212347743722959594, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300004, guid: 407424f4210404c57b18b187f5991f67,
         type: 3}
-    - target: {fileID: 95650485888395302, guid: 6aca6b8a8b2144113adb9dd1aeef5f3f,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c49992ddfd26641ccae252e7c0769d06, type: 2}
